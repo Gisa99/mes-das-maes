@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&family=Satisfy&display=swap');
+
+:root{
+    --cor-principal: #562B6C;
+    --cor-background: #D3CCD0;
+    --cor-subtitulo: #9B620A;
+    --cor-titulo-principal: #EFEDED;
+    --cor-botao: #8BB41E;
+    --fonte-titulo: font-family: 'Fasthand', cursive;
+    --fonte-principal: font-family: 'Montserrat Alternates', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*font-family: 'Fasthand', cursive;
+font-family: 'Montserrat Alternates', sans-serif;*/ 
+
+body{
+    background-color: var(--cor-background);
+    color: var(--cor-principal);
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.principal{
+    width: 100vw;
+    
+}
+.first-section{
+    width: 100vw;
+    height: 100vh;
+}
+
+.banner{
+    background: url(./imagens/Cuide\ bem\ da.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+  
+}
+
+.banner h1{
+    color: var(--cor-titulo-principal);
+    font-family: 'Satisfy', cursive;
+    font-size: 2.0rem;
+    text-shadow: 1px 2px 2px 0 rgba(41, 40, 40, 0.952);
+    padding-top: 150px;
+   
+}
+
+.banner p{
+    position: absolute;
+    color: var(--cor-titulo-principal);
+    text-shadow: 1px 2px 2px 0 rgba(41, 40, 40, 0.911);
+    padding: 0 30px;
+    line-height: 22px;
+}
+.produtos-firstsection{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100vw;
+    column-gap: 15px;
+    
+}
+.produtos-firstsection p{
+    text-align: left;
+    position: absolute;
+    right: 40px;
+    width: 25%;
+}
+.colagenos-cha{
+    height: 300px; 
+    margin-left: 15px; 
+    padding: 5px; 
+}
+
+.beneficios{
+    width: 100vw;
+    height: 50vh;
+    background-color: var(--cor-principal);
+    color: var(--cor-background);
+}
+
+.subtitulo-beneficios{
+    text-align: center;
+    padding: 40px 25px 0 20px;
+}
+
+.lista-beneficios{
+    list-style: none;
+    line-height: 20px;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 20px 0px 20px;
+}
+
+.lista-beneficios li{
+    margin: 0 0 10px 25px;
+   
+}
+
+.preco{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+}
+
+.preco div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 15px;
+  }
+
+  .subtitulo-preco{
+    color: var(--cor-subtitulo);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2.0rem;
+    margin-top: 10px;
+}
+
+.produtos-img{
+    height: 100px;  
+}
+
+.text{
+    display: flex;
+    flex-direction: column;  
+    column-gap: 25px;
+}
+.text1{
+   font-size: 1rem;
+   font-weight: 500;
+   line-height: 10px;
+   width: 100%;
+   text-align: left;
+}
+.text2{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.text3{
+    font-weight: 500;
+    text-align: right;
+    width: 100%;
+}
+.sjuros{
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--cor-subtitulo);
+}
+
+.botao{
+  width: 250px;
+  height: 35px;
+  border-radius: 32px;
+  border: none;
+  background: var(--cor-botao);
+  box-shadow: 1px 1px 3px 0px rgba(27, 27, 27, 0.795);
+  color:var(--cor-titulo-principal);
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.7s ease-in-out;
+
+}
+
+.botao:hover{
+    background-color: #6d8b17;
+    transform: scale(1.2);
+}
+.entregas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    row-gap: 15px;
+    font-weight: 600; 
+}
+
+.icon{
+    height: 130px;  
+}
+
+.rodape{
+  background-color: var(--cor-principal);
+  color: var(--cor-background);
+  height: 35vh;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 25px;
+}
+
+.rodape p{
+ margin: 20px 20px 0;
+}
+
+.slongan-rodape{
+    font-size: 1.2em;
+  font-weight: 600;
+}
+
+.contato{
+    padding: 25px;
+}
+
+.contato-img{
+    filter: invert(1);
+    height: 40px;
+    transition: 0.7s ease-in-out;
+}
+
+.contato-img:hover{
+    transform: scale(1.2);
+
+}
