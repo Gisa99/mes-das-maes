@@ -17,6 +17,41 @@
 }
 /*font-family: 'Fasthand', cursive;
 font-family: 'Montserrat Alternates', sans-serif;*/ 
+.cabecalho{
+    height: 8vh;
+    box-shadow: 1px 1px 3px 0px rgba(27, 27, 27, 0.555);
+}
+
+.btn-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5%;  
+}
+
+.btn{
+    height: 25px;
+    width: 30%;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: none;
+    font-weight: 700;
+    background-color: #562B6C;
+    transition: 0.5s ease-in-out;
+    box-shadow: 1px 1px 3px 0px rgba(27, 27, 27, 0.555);
+}
+.btn:hover{
+    background-color: #b4a3bd;
+    color: #562B6C;
+    transform: scale(1.1);
+}
+
+.btn a{
+    font-family: 'Montserrat Alternates', sans-serif; 
+    text-decoration: none;
+    color: #EFEDED;
+}
 
 body{
     background-color: var(--cor-background);
