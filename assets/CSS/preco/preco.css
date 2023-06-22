@@ -1,0 +1,11 @@
+.preco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3CCD0;
+    height: auto;
+    padding: 20px;
+    width: 100vw;
+    
+}

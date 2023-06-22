@@ -1,0 +1,21 @@
+.beneficios__img{
+    background: url(../../imagens/Cuide\ bem\ da.png) no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+}
+@media(min-width: 320px) and (max-width: 768px){
+    .beneficios__img{
+       display: none;
+    } 
+
+}
+@media(min-width: 768px) and (max-width:1024px){
+    .beneficios__img{
+        background-size: contain;
+        margin-top: 10%;
+
+    } 
+
+}

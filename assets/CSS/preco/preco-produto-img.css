@@ -1,0 +1,13 @@
+.preco__produto-img{
+    height: 250px;
+}
+@media(min-width: 320px) and (max-width:768px){
+    .preco__produto-img{
+        height: 120px;
+    }
+}
+@media(min-width: 768px) and (max-width:1024px){
+    .preco__produto-img{
+        height: 200px;
+    }
+}

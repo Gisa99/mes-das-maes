@@ -4,91 +4,181 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="stylesheet" href="medias.css">
     <title>Campanha dia das Mães</title>
+    <link rel="stylesheet" href="reset.css">
+
+    <link rel="stylesheet" href="assets/CSS/cabecalho/menu-cabecalho.css">
+    <link rel="stylesheet" href="assets/CSS/cabecalho/logo-cabecalho-img.css">
+    <link rel="stylesheet" href="assets/CSS/cabecalho/btn-menu.css">
+    <link rel="stylesheet" href="assets/CSS/cabecalho/btn-menu-item.css">
+    <link rel="stylesheet" href="assets/CSS/cabecalho/cabecalho.css">
+
+     <link rel="stylesheet" href="assets/CSS/banner/banner-img.css">
+     <link rel="stylesheet" href="assets/CSS/banner/banner-text.css">
+     <link rel="stylesheet" href="assets/CSS/banner/banner.css">
+
+     <link rel="stylesheet" href="assets/CSS/apresentacao/apresentacao.css">
+     <link rel="stylesheet" href="assets/CSS/apresentacao/apresentacao-text.css">
+     <link rel="stylesheet" href="assets/CSS/apresentacao/apresentacao-produtos.css">
+     <link rel="stylesheet" href="assets/CSS/apresentacao/apresentacao-img.css">
+
+     <link rel="stylesheet" href="assets/CSS/beneficios/beneficios-title.css">  
+     <link rel="stylesheet" href="assets/CSS/beneficios/beneficios.css">  
+     <link rel="stylesheet" href="assets/CSS/beneficios/lista-beneficios.css">
+     <link rel="stylesheet" href="assets/CSS/beneficios/beneficios-img.css">
+     <link rel="stylesheet" href="assets/CSS/beneficios/beneficios-conteudo.css">
+
+     <link rel="stylesheet" href="assets/CSS/preco/preco.css">
+     <link rel="stylesheet" href="assets/CSS/preco/preco__title.css">
+     <link rel="stylesheet" href="assets/CSS/preco/preco-produtos.css">
+     <link rel="stylesheet" href="assets/CSS/preco/preco-produto.css">
+     <link rel="stylesheet" href="assets/CSS/preco/preco-produto-text.css">
+     <link rel="stylesheet" href="assets/CSS/preco/preco-produto-img.css">
+
+     <link rel="stylesheet" href="assets/CSS/comprar/botao-comprar.css">
+     <link rel="stylesheet" href="assets/CSS/comprar/comprar.css">
+
+     <link rel="stylesheet" href="assets/CSS/rodape/rodape__entregas.css">
+     <link rel="stylesheet" href="assets/CSS/rodape/rodape.css">
+     <link rel="stylesheet" href="assets/CSS/rodape/rodape__contato.css">
+     <link rel="stylesheet" href="assets/CSS/rodape/rodape-endereco.css">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&family=Montserrat:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+
+    
+
+
+
+
+ 
 </head>
 <body>
     <header class="cabecalho">
-      <div class="btn-menu">
-        <button class="btn"><a href="https://gisa99.github.io/landing-emporio2/" target="_blank">Menu</a></button>
-        <button class="btn"><a href="https://gisa99.github.io/formulario-saude/" target="_blank">Indicações</a></button>
+      <div class="menu__cabecalho">
+        <div class="logo__cabecalho-img"></div>
+        <ul class="btn__menu">
+            <li class="btn-menu__item"> <a href="https://gisa99.github.io/landing-emporio2/" target="_blank">Menu</a></li>
+            <li class="btn-menu__item"><a href="https://gisa99.github.io/formulario-saude/" target="_blank">Contato</a></li>
+        </ul>
       </div>
     </header>
+
+
     <main class="principal">
-        <section class="first-section">
-            <div class="banner">
-                <h1>Amor & Cuidado</h1>
-                <p>Para todas as mães que merecem o melhor cuidado, temos o presente perfeito para o <strong>Dia das Mães!</strong></p>
+
+        <section class="banner">
+            <div class="banner__img"></div>
+            <div class="banner__text">
+                <h1 class="banner__titulo">Amor & Cuidado</h1>
+                <p class="banner__texto">Para todas as mães que merecem o melhor cuidado, temos o presente perfeito para o <strong>Dia das Mães!</strong></p>
             </div>
-            <div class="produtos-firstsection">
-                <img class="colagenos-cha" src="imagens/colagenos-e-chas-removebg-preview-removebg-preview.png" alt="Colágenos e Chás">
-                <p>Na compra de um <strong>colágeno</strong>, você ganha um <strong>chá gourmet</strong> ou <strong>funcional</strong>.</p>
+        </section>
+
+        <section class="apresentacao">
+            <div class="apresentacao__produtos">
+                <div class="apresentacao__img">
+                    <img class="colagenos-cha" src="assets/imagens/colagenos-e-chas-removebg-preview-removebg-preview.png" alt="Colágenos e Chás">
+                </div>
+
+                <div class="apresentacao__text">
+                    <p>Na compra de um <strong>colágeno</strong>, você ganha um <strong>chá gourmet</strong> ou <strong>funcional</strong>.</p>
+                </div>
             </div>
         </section>
 
         <section class="beneficios">
-            <h2 class="subtitulo-beneficios">O que o colágeno faz por você?</h2>
-            <ul class="lista-beneficios">
-                <li>Reduz rugas e linhas de expressões;</li>
-                <li>Fortalece e estimula o crescimento das unhas e cabelos</li>
-                <li>Maciez e hidratação;</li>
-                <li>Possuem antioxidantes que previnem o envelhecimento precoce;</li>
-                <li>Previne celulites e estrias;</li>
-
-            </ul>
+            <h2 class="beneficios__title">O que o colágeno faz por você?</h2>
+            <div class="beneficios__conteudo">
+                <div class="beneficios__img"></div>
+                <div>
+                    <ul class="lista__beneficios">
+                        <li class="lista__beneficios-item">Reduz rugas e linhas de expressões;</li>
+                        <li class="lista__beneficios-item">Fortalece e estimula o crescimento das unhas e cabelos</li>
+                        <li class="lista__beneficios-item">Maciez e hidratação;</li>
+                        <li class="lista__beneficios-item">Possuem antioxidantes que previnem o envelhecimento precoce;</li>
+                        <li class="lista__beneficios-item">Previne celulites e estrias.</li>
+                    </ul>
+                </div>
+            </div>
             
         </section>
         
         <section class="preco">
-            <h2 class="subtitulo-preco">...e tudo isso por apenas:</h2>
-            <div class="colageno-prosoluction">
-                <img class="produtos-img" src="imagens/colágeno_prosoluction_-removebg-preview-removebg-preview.png" alt="imagem do colágeno Prosoluction">
-                <div class="text">
-                    <p class="text1">3x de</p>
-                    <p class="text2">R$ 38,00</p>
-                    <p class="text3">(R$ 114,00)</p>
-                    <p class="sjuros">sem juros</p>
-                </div>
-            </div>
-            <div class="verisol">
-                <div><img class="produtos-img" src="imagens/colágeno_verisol-removebg-preview-removebg-preview.png" alt="produto colágeno Verisol"></div>
-                <div class="text">
-                    <p class="text1">3x de</p>
-                    <p class="text2">R$ 40,00</p>
-                    <p class="text3">(R$ 120,00)</p>
-                    <p class="sjuros">sem juros</p>
-                </div>
-            </div>
-            <div class="renovation">
-                <div><img class="produtos-img" src="imagens/renovation-removebg-preview.png" alt="produto colágeno Renovation"></div>
-                <div class="text">
-                    <p class="text1">3x de</p>
-                    <p class="text2">R$ 45,00</p>
-                    <p class="text3">(R$ 135,00)</p>
-                    <p class="sjuros">sem juros</p>
-                </div>
-            </div>
-            
-            <div> <a href="https://api.whatsapp.com/send?phone=5548991451940&text=Gostaria%20de%20presentear%20minha%20m%C3%A3e%20com%20um%20col%C3%A1geno%20%3C3"><button class="botao">pedir agora</button></a></div>
+            <h2 class="preco__title">...e tudo isso por apenas:</h2>
 
-            <div class="entregas">
-                <img class="entregas-img" src="imagens/monitorando.png"" alt="símbolo caminhão de entregas">
-                <p>Entregas em Cocal do Sul e Região</p>
+            <div class="preco__produtos">
+                <div class="preco__produto  preco__produto--colagenoProsoluction">
+                    <div>
+                        <img class="preco__produto-img" src="assets/imagens/colágeno_prosoluction_-removebg-preview-removebg-preview.png" alt="imagem do colágeno Prosoluction">
+                    </div>
+                    <div class="preco__produto-text">
+                        <p class="text1">3x de</p>
+                        <p class="text2">R$ 38,00</p>
+                        <p class="text3">(R$ 114,00)</p>
+                        <p class="sjuros">sem juros</p>
+                    </div>
+                </div>
+                <div class="preco__produto  preco__produto--verisol">
+
+                    <div>
+                        <img class="preco__produto-img" src="assets/imagens/colágeno_verisol-removebg-preview-removebg-preview.png" alt="produto colágeno Verisol">
+                    </div>
+                    <div class="preco__produto-text">
+                        <p class="text1">3x de</p>
+                        <p class="text2">R$ 40,00</p>
+                        <p class="text3">(R$ 120,00)</p>
+                        <p class="sjuros">sem juros</p>
+                    </div>
+                </div>
+                <div class="preco__produto  preco__produto--renovation">
+
+                    <div>
+                        <img class="preco__produto-img" src="assets/imagens/renovation-removebg-preview.png" alt="produto colágeno Renovation">
+                    </div>
+                    <div class="preco__produto-text">
+
+                        <p class="text1">3x de</p>
+                        <p class="text2">R$ 45,00</p>
+                        <p class="text3">(R$ 135,00)</p>
+                        <p class="sjuros">sem juros</p>
+                    </div>
+                </div>
             </div>
-            
+            <div class="comprar"> 
+                <button class="botao__comprar">
+                <a href="https://api.whatsapp.com/send?phone=5548991451940&text=Gostaria%20de%20presentea
+                r%20minha%20m%C3%A3e%20com%20um%20col%C3%A1geno%20%3C3">
+                pedir agora</a>
+            </button>
+            </div>
         </section>
+
+     
     </main>
 
     <footer class="rodape">
-       <h3 class="rodape-titulo"> Empório Natur's</h3>
-       <p class="slongan-rodape">A sua rota da saúde!</p>
-       <div class="endereco">
-           <p> <strong>Endereço:</strong> Av. Polidoro Santiago, 428,
-            Cocal do Sul-SC</p>
+
+        <div class="rodape__entregas">
+            <div class="rodape__entregas-img">
+                <img class="entregas-img" src="assets/imagens/monitorando.png" alt="símbolo caminhão de entregas">
+            </div>
+            <p class="rodape__entregas-texto">Entregas em Cocal do Sul e Região</p>
+        </div>
+
+      <div class="rodape__endereco">
+        <h4 class="rodape__endereco-titulo"> Empório Natur's</h4>
+            <address><p class="rodape__endereco-texto"> <strong>Endereço:</strong> Av. Polidoro Santiago, 428,
+                Cocal do Sul-SC</p></address>   
        </div>
-        <div class="contato">
-            <a href="https://api.whatsapp.com/send?phone=5548991451940&text=Gostaria%20de%20presentear%20minha%20m%C3%A3e%20com%20um%20col%C3%A1geno%20%3C3"><img class="contato-img" src="imagens/whatsapp.png" alt="ícone whatsapp"></a>
+        <div class="rodape__contato">
+            <div class="rodape__contato-img">
+                <img class="contato-img" src="assets/imagens/whatsapp.png" alt="ícone whatsapp">
+            </div>
+            <div class="rodape__contato-link">
+                <a href="https://api.whatsapp.com/send?phone=5548991451940&text=Gostaria%20de%20presentear%20minha%20m%C3%A3e%20com%20um%20col%C3%A1geno%20%3C3">Whatsapp</a>
+            </div>
         </div>
        
 

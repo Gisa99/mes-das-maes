@@ -1,0 +1,33 @@
+.lista__beneficios{
+    text-align: left;
+    height: auto;
+    position: relative;
+    top: 20%;
+    line-height: 3rem;
+    
+}
+
+.lista__beneficios-item{
+    color: #291433;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+
+@media(min-width: 320px) and (max-width: 768px){
+    .lista__beneficios{
+        line-height: 2rem; 
+        text-align: center; 
+    } 
+    .lista__beneficios-item{
+        font-size: 1.2rem;
+        padding: 0 10px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1024px){
+    .lista__beneficios{
+        top: 10%;
+    } 
+}

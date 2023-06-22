@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&family=Satisfy&display=swap');
+
+:root{
+    --cor-principal: #562B6C;
+    --cor-background: #D3CCD0;
+    --cor-subtitulo: #9B620A;
+    --cor-titulo-principal: #EFEDED;
+    --cor-botao: #8BB41E;
+    --fonte-titulo: font-family: 'Fasthand', cursive;
+    --fonte-principal: font-family: 'Montserrat Alternates', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+html{
+    background-color:   #fafaed;
+}
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Pacifico', cursive;

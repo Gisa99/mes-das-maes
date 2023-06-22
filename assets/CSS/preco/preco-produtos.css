@@ -1,0 +1,13 @@
+.preco__produtos{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    column-gap: 5rem;
+}
+
+@media(min-width: 320px) and (max-width:768px){
+    .preco__produtos{
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+}

@@ -1,0 +1,14 @@
+.btn-menu__item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    
+}
+.btn-menu__item a{
+    transition: 1s ease-out;
+}
+.btn-menu__item a:hover{
+   color: #1f0f27;
+   text-decoration: underline;
+}
+

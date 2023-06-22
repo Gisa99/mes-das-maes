@@ -1,0 +1,48 @@
+.preco__produto-text{
+    color:#291433;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}
+
+.preco__produto-text .text1{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #9B620A;
+}
+
+.preco__produto-text .text2{
+    font-size: 1.9rem;
+    font-weight: 800;
+    color:#291433;
+}
+
+.preco__produto-text .text3{
+    font-size: 1rem;
+    font-weight: 600;
+    color:#291433;
+}
+
+.preco__produto-text .sjuros{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #9B620A;
+}
+
+@media(min-width: 320px) and (max-width:768px){
+    .preco__produto-text .sjuros .text1 .text3{
+        font-size: 1rem;
+    }
+    .preco__produto-text .text2{
+        font-size: 1.2rem;
+        font-weight: 800;
+        color:#291433;
+    }
+}
+
+@media(min-width: 768px) and (max-width:1024px){
+    .preco__produto-text .text2{
+        font-size: 1.5rem;
+        font-weight: 800;
+        color:#291433;
+    }
+}

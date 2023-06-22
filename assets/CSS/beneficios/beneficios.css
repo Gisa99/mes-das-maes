@@ -1,0 +1,13 @@
+.beneficios{
+    height: 500px;
+    width: 100vw;
+    
+}
+
+@media(min-width: 320px) and (max-width: 768px){
+    .beneficios{
+      
+        height: 450px;
+    }
+    
+}

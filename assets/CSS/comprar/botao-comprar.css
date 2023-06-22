@@ -1,0 +1,30 @@
+.botao__comprar{
+    border-radius: 5px;
+    border: 1px solid #8BB41E;
+    background-color: #8BB41E;
+    height: 40px;
+    padding: 5px;
+    width: 400px;
+    transition: 0.5s ease-in-out;
+}
+
+.botao__comprar:hover{
+    background-color: #5b7513;
+    cursor: pointer;
+    transform: scale(0.9);
+
+}
+
+.botao__comprar a{
+    color: #fafaed;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;   
+}
+
+@media(min-width: 320px) and (max-width:768px){
+    .botao__comprar{
+        width: 300px;
+    }
+}

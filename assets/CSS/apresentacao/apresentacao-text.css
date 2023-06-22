@@ -1,0 +1,16 @@
+.apresentacao__text{
+    font-size: 1.8rem;
+    width: 30%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #291433;
+}
+
+@media(min-width: 320px) and (max-width: 768px){
+    .apresentacao__text{
+        height: 100%;
+        width: 100%;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    
+}

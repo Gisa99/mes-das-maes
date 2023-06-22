@@ -1,0 +1,14 @@
+.beneficios__conteudo{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+}
+
+@media(min-width: 320px) and (max-width: 768px){
+    .beneficios__conteudo{
+       height: 300px; 
+    } 
+
+}
